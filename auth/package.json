@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "lint": "eslint src/**/*.ts",
-    "prettier": "prettier src/**/*.ts",
+    "prettier": "prettier  --check .src/**/*.ts",
+    "prettier:fix":"pretteir --write ./src/**/*.ts",
     "build": "npx tsc",
     "start": "node dist/index.js",
     "dev": "nodemon src/index.ts",
@@ -43,7 +44,7 @@
   },
   "lint-staged": {
     "src/**/*.{js,jsx}": [
-      "eslint . --fix", "git add"
+      "npm run lint", "npm run prettier", "git add"
     ],
     "src/**/*.scss": [
       "stylelint --syntax scss --fix", "git add"
