@@ -1,0 +1,4 @@
+{
+    "*.ts": ["npm run prettier", "npm run lint", "git add"],
+    "*.md": "prettier --list-different"
+  }
