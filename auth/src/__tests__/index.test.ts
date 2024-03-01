@@ -1,5 +1,5 @@
 import request from "supertest";
-import { app } from "../app";
+import  app  from "../app";
 
 it('Responds with a 200 status',async () => {
   await request(app)
