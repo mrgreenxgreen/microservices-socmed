@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("socialmedia-microservices")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+efbc2c317c59cb12e12987542f1e553a94d0d675")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+203e5df06e9bcc54970628ab95d46ff27bd40c3f")]
 [assembly: System.Reflection.AssemblyProductAttribute("socialmedia-microservices")]
 [assembly: System.Reflection.AssemblyTitleAttribute("socialmedia-microservices")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
