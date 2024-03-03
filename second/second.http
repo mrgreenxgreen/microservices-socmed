@@ -1,0 +1,6 @@
+@second_HostAddress = http://localhost:9999
+
+GET {{second_HostAddress}}/cast/
+Accept: application/json
+
+###
